@@ -15,6 +15,10 @@ Oh yeah! Let's make a game!
    -For this project it makes conflicts easier to solve, allows a way to organize code, and checks compatibility.
    
    -For more info check out this [article](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/#:~:text=Essentially%20creating%20a%20timeline%20of,changes%20%E2%80%94%20is%20by%20using%20branches.)  or this [guide by github](https://guides.github.com/introduction/flow/).
+   
+## Notes:
+- Unity needs to be closed in order to commit your changes
+- Um... Add notes if need be?
  
  
  

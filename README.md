@@ -4,7 +4,7 @@ Baby's first 2D platformer
 Oh yeah! Let's make a game!
 
 ## Rules:
-   Branches are a necessity for collaboration projects such as this one.
+- Branches are a necessity for collaboration projects such as this one.
  
 ## What do Branches do:
  
@@ -13,11 +13,13 @@ Oh yeah! Let's make a game!
 - Branches are useful especially for people working on different parts for example let's say I've made code for the game and you've made code for a sprite. How do we make sure  theses things are compatible without changing the origin? The branch makes sure they're no conflicts or compile errors before it is pulled in and others can review to see if it is viable.
    
 - For this project it makes conflicts easier to solve, allows a way to organize code, and checks compatibility.
-   
+
 - For more info check out this [article](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/#:~:text=Essentially%20creating%20a%20timeline%20of,changes%20%E2%80%94%20is%20by%20using%20branches.)  or this [guide by github](https://guides.github.com/introduction/flow/).
    
 ## Notes:
-- Unity needs to be closed in order to commit your changes
+- Unity needs to be closed in order to commit your changes.
+- Make sure your whole group is sharing the same version of unity.
+- If making code, be sure to make different classes to allow for easy accessing of code rather than writing whole blocks in update.
 - Um... Add notes if need be?
  
  ## Useful Links

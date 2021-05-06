@@ -20,5 +20,5 @@ Oh yeah! Let's make a game!
 - Unity needs to be closed in order to commit your changes
 - Um... Add notes if need be?
  
- 
- 
+ ## Useful Links
+ Link to our [Scrum Notebook](https://docs.google.com/document/d/1Z7bfG6rc_vd98hPDqC4yJ5DxavASlMI3COBb_2ldXFo/edit#).

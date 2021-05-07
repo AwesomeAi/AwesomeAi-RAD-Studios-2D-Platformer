@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 544916073}
   - component: {fileID: 544916072}
   - component: {fileID: 544916071}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Anakin platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 923617427}
   - component: {fileID: 923617426}
   - component: {fileID: 923617428}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Buff hooman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -476,6 +476,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc35ff4146ffe174db8ef5ecb64d07ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ground:
+    serializedVersion: 2
+    m_Bits: 256
   jumpVeloctiy: 10
   moveSpd: 10
   airMobility: 0

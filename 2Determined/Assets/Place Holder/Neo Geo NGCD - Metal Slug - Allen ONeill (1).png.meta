@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: 15a02f599dcd9ed4286a0ed747c687f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3620583026773191046
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_0
+  - first:
+      213: -5652020077994473971
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_1
+  - first:
+      213: -1144996847108375415
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_2
+  - first:
+      213: 478347437892117797
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_3
+  - first:
+      213: -9046867694028180969
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_4
+  - first:
+      213: -5374316659021886110
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_5
+  - first:
+      213: -6120630981219739483
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_6
+  - first:
+      213: 8682070231811871124
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_7
+  - first:
+      213: 6924643855191303440
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_8
+  - first:
+      213: 2340681447123286432
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_9
+  - first:
+      213: 2979648932868679190
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_10
+  - first:
+      213: 5199943132495046029
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_11
+  - first:
+      213: 2499901833297977462
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_12
+  - first:
+      213: 4801649922705513390
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_13
+  - first:
+      213: -8440854913000383858
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_14
+  - first:
+      213: -7422496625139445111
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_15
+  - first:
+      213: -7418961016006683711
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_16
+  - first:
+      213: -1925442753419149830
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_17
+  - first:
+      213: -6334492790527918329
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_18
+  - first:
+      213: 707310803070072656
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_19
+  - first:
+      213: -1387894565393864935
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_20
+  - first:
+      213: -3839234517302599513
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_21
+  - first:
+      213: -5976560702804193171
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_22
+  - first:
+      213: -4674208744046826327
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_23
+  - first:
+      213: -5950534751795217178
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_24
+  - first:
+      213: 2997456277152946684
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_25
+  - first:
+      213: -4613967275077286565
+    second: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 264
+        width: 81
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7610697bea11cdc0800000000000000
+      internalID: -3620583026773191046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 210
+        width: 83
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0683cb4fadff81b0800000000000000
+      internalID: -5652020077994473971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 213
+        width: 83
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cb92b1f672c10f0800000000000000
+      internalID: -1144996847108375415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 210
+        width: 83
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52527cad57e63a600800000000000000
+      internalID: 478347437892117797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 210
+        width: 82
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7123e7fb3c1137280800000000000000
+      internalID: -9046867694028180969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_5
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 210
+        width: 81
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d498419779a65b0800000000000000
+      internalID: -5374316659021886110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_6
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 210
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a895231d862f0ba0800000000000000
+      internalID: -6120630981219739483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 159
+        width: 81
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491d32250e8ec7870800000000000000
+      internalID: 8682070231811871124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 157
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015e4c0e5e6491060800000000000000
+      internalID: 6924643855191303440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 157
+        width: 82
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9712cef55cb7020800000000000000
+      internalID: 2340681447123286432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 157
+        width: 83
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6166207eae6d95920800000000000000
+      internalID: 2979648932868679190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 106
+        width: 82
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8569908ab8e92840800000000000000
+      internalID: 5199943132495046029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_12
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 106
+        width: 81
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670e21be87f61b220800000000000000
+      internalID: 2499901833297977462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 106
+        width: 81
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabd4aa1a23e2a240800000000000000
+      internalID: 4801649922705513390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_14
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 106
+        width: 81
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a500e9d2f0cda80800000000000000
+      internalID: -8440854913000383858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_15
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 106
+        width: 81
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982170045aefdf890800000000000000
+      internalID: -7422496625139445111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_16
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 106
+        width: 82
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c35376634e8a0990800000000000000
+      internalID: -7418961016006683711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 42
+        width: 81
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdf91764047745e0800000000000000
+      internalID: -1925442753419149830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 44
+        width: 80
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f7f4c5e5c5718a0800000000000000
+      internalID: -6334492790527918329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_19
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 46
+        width: 80
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057b9ca8d6fd0d900800000000000000
+      internalID: 707310803070072656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 77
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917e0040f353dbce0800000000000000
+      internalID: -1387894565393864935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3
+        width: 81
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0a2c23c8c48bac0800000000000000
+      internalID: -3839234517302599513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_22
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 3
+        width: 78
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d601ccab4bdfe0da0800000000000000
+      internalID: -5976560702804193171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_23
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 3
+        width: 78
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac601d89efd12fb0800000000000000
+      internalID: -4674208744046826327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_24
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 3
+        width: 80
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecf0a7ab247b6da0800000000000000
+      internalID: -5950534751795217178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_25
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 3
+        width: 80
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf957755a9a199920800000000000000
+      internalID: 2997456277152946684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Allen ONeill (1)_26
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 3
+        width: 81
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55cdbb8535e7ffb0800000000000000
+      internalID: -4613967275077286565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

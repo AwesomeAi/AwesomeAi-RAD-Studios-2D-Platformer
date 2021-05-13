@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2274793179
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Spikes
+    uniqueID: 199370461
+    locked: 0
+  - name: GameObjects
+    uniqueID: 2016597249
     locked: 0

@@ -29,3 +29,10 @@ Oh yeah! Let's make a game!
  
  ## Useful Links
  - Link to our [Scrum Notebook](https://docs.google.com/document/d/1Z7bfG6rc_vd98hPDqC4yJ5DxavASlMI3COBb_2ldXFo/edit#).
+
+# What is RAD studios?
+It's the name of our game studio made up of the fine developers.
+
+## Whats our relation ship to this game
+This is our first game so raise your expectations so you can dissapoint yourself
+

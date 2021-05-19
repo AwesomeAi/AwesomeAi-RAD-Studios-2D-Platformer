@@ -33,6 +33,11 @@ Oh yeah! Let's make a game!
 # What is RAD studios?
 It's the name of our game studio made up of the fine developers.
 
-## Whats our relation ship to this game
-This is our first game so raise your expectations so you can dissapoint yourself
+## What's our relationship to this game
+This is our first game, so raise your expectations so you can dissapoint yourself.
+
+## Should I expect more "quality" games?
+Don't know.
+
+# Game Description
 

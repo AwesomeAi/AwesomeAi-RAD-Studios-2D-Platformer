@@ -10,6 +10,8 @@ public class AnimeShuns : MonoBehaviour
     //animation counters
     int jumpToFall = 0;
 
+
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -64,15 +66,15 @@ public class AnimeShuns : MonoBehaviour
 
     public void fullJump()
     {
-       if (jumpToFall == 0)
+        if(jumpToFall == 0)
         {
             jump();
             jumpToFall++;
+
         }
-       else
-        {
-            falling();
-        }
+        
+
+        falling();
     }
 
     public void jumpReset()

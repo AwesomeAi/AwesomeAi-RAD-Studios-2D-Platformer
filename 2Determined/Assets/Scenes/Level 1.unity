@@ -12822,6 +12822,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1233573951
 GameObject:
   m_ObjectHideFlags: 0
@@ -12920,10 +12921,15 @@ BoxCollider2D:
 --- !u!61 &6525454640035675288
 BoxCollider2D:
 >>>>>>> Stashed changes
+=======
+--- !u!61 &6525454640035675288
+BoxCollider2D:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 1233573951}
@@ -12942,6 +12948,10 @@ BoxCollider2D:
 =======
   m_GameObject: {fileID: 6789804872763299325}
   m_Enabled: 1
+=======
+  m_GameObject: {fileID: 6789804872763299325}
+  m_Enabled: 1
+>>>>>>> Stashed changes
 =======
   m_GameObject: {fileID: 6789804872763299325}
   m_Enabled: 1
@@ -12966,6 +12976,9 @@ BoxCollider2D:
   m_EdgeRadius: 0
 --- !u!212 &6734092633652801951
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -12976,7 +12989,11 @@ SpriteRenderer:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1233573951}
+=======
+  m_GameObject: {fileID: 4654333253735237375}
+>>>>>>> Stashed changes
 =======
   m_GameObject: {fileID: 4654333253735237375}
 >>>>>>> Stashed changes
@@ -13017,8 +13034,12 @@ SpriteRenderer:
   m_SortingOrder: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 8774777088517460525, guid: 1976d1a435d6f524eb3881fa6432de99,
     type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: c4384b3684f404345b36eff0446baa1a, type: 3}
+>>>>>>> Stashed changes
 =======
   m_Sprite: {fileID: 21300000, guid: c4384b3684f404345b36eff0446baa1a, type: 3}
 >>>>>>> Stashed changes
@@ -13031,7 +13052,11 @@ SpriteRenderer:
   m_DrawMode: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Size: {x: 0.05, y: 0.19}
+=======
+  m_Size: {x: 0.2, y: 0.2}
+>>>>>>> Stashed changes
 =======
   m_Size: {x: 0.2, y: 0.2}
 >>>>>>> Stashed changes
@@ -13043,6 +13068,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!4 &1233573957
@@ -13071,10 +13097,15 @@ GameObject:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1233573958
 MonoBehaviour:
+=======
+--- !u!1 &6757718846587739461
+GameObject:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1233573951}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -13083,6 +13114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!1 &1322580357
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   serializedVersion: 6
@@ -13099,6 +13132,9 @@ MonoBehaviour:
   m_IsActive: 1
 --- !u!1 &6789804872763299325
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

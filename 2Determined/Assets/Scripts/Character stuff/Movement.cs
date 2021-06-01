@@ -76,14 +76,12 @@ public class Movement : MonoBehaviour
             {
                 rb2d.velocity = new Vector2(moveSpd, rb2d.velocity.y);
                 a.direction("right");
-                a.run();
             }
 
             else
             {
                 rb2d.velocity += new Vector2(moveSpd * airMobility * Time.deltaTime, 0);
                 rb2d.velocity = new Vector2(Mathf.Clamp(rb2d.velocity.x, -moveSpd, +moveSpd), rb2d.velocity.y);
-                a.fullJump();
             }
             
         }

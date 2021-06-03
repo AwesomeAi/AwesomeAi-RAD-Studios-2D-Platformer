@@ -56,7 +56,7 @@ public class Movement : MonoBehaviour
     private void jumping()
     {
         //Checks for keys
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {
             a.fullJump();
             rb2d.velocity = Vector2.up * jumpVeloctiy;

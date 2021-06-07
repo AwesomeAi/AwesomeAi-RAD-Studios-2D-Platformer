@@ -16,14 +16,10 @@ public class Movement : MonoBehaviour
 
     public float airMobility;
 
-    //Private variables
+    public float wallSlideSpd;
 
-    // counts wall jumps to avoid character jumping on wall infinitely
-    private int wallJumpsRight = 0;
-    private int wallJumpsLeft = 0;
-   
-    //animation counters
-
+    public float wallJumpX;
+    public float wallJumpY;
 
     //creates reference varible for compnenets
     private Rigidbody2D rb2d;
@@ -41,12 +37,16 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isGrounded()) // checks if player is grounded
+        if (onWallLeft() || onWallRight()) //checks if player is on wall
+        {
+            
+            wallmove();
+        }
+
+        else if (isGrounded()) // checks if player is grounded
         {
             jumping();
-            a.jumpReset();
-        }
-        
+        }        
 
         horizontal();
     }
@@ -58,7 +58,8 @@ public class Movement : MonoBehaviour
         //Checks for keys
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {
-            a.fullJump();
+            a.falling();
+
             rb2d.velocity = Vector2.up * jumpVeloctiy;
         }
 
@@ -76,12 +77,17 @@ public class Movement : MonoBehaviour
             {
                 rb2d.velocity = new Vector2(moveSpd, rb2d.velocity.y);
                 a.direction("right");
+                a.run();
             }
 
             else
             {
                 rb2d.velocity += new Vector2(moveSpd * airMobility * Time.deltaTime, 0);
                 rb2d.velocity = new Vector2(Mathf.Clamp(rb2d.velocity.x, -moveSpd, +moveSpd), rb2d.velocity.y);
+                if ((onWallLeft() == false) || (onWallRight() == false))
+                {
+                    a.falling();
+                }
             }
             
         }
@@ -100,7 +106,10 @@ public class Movement : MonoBehaviour
             {
                 rb2d.velocity += new Vector2(-moveSpd * airMobility * Time.deltaTime, 0);
                 rb2d.velocity = new Vector2(Mathf.Clamp(rb2d.velocity.x, -moveSpd, +moveSpd), rb2d.velocity.y);
-                a.fullJump();
+                if ((onWallLeft() == false) || (onWallRight() == false))
+                {
+                    a.falling();
+                }
             }
         }
 
@@ -119,24 +128,17 @@ public class Movement : MonoBehaviour
 
     private bool isGrounded()
     {
-        RaycastHit2D rh2d = Physics2D.BoxCast(bc2d.bounds.center, bc2d.bounds.size, 0f, Vector2.down, .1f, surface);
-        Debug.Log(rh2d.collider);
-
-        wallJumpsRight = 0;
-        wallJumpsLeft = 0;
+        RaycastHit2D rh2d = Physics2D.BoxCast(bc2d.bounds.center, bc2d.bounds.size, 0f, Vector2.down, 1f, surface);
 
         return rh2d.collider != null;
     }
 
     private bool onWallRight()
     {
-        RaycastHit2D rh2d = Physics2D.BoxCast(bc2d.bounds.center, bc2d.bounds.size, 0f, Vector2.right, .1f, surface);
-        Debug.Log(rh2d.collider);
+        RaycastHit2D rh2d = Physics2D.BoxCast(bc2d.bounds.center, bc2d.bounds.size, 0f, Vector2.right, .5f, surface);
 
-        if (wallJumpsRight < 1)
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            wallJumpsLeft = 0;
-            wallJumpsRight += 1;
             return rh2d.collider != null;
         }
 
@@ -145,21 +147,59 @@ public class Movement : MonoBehaviour
 
     private bool onWallLeft()
     {
-        RaycastHit2D rh2d = Physics2D.BoxCast(bc2d.bounds.center, bc2d.bounds.size, 0f, Vector2.left, .1f, surface);
-        Debug.Log(rh2d.collider);
+        RaycastHit2D rh2d = Physics2D.BoxCast(bc2d.bounds.center, bc2d.bounds.size, 0f, Vector2.left, .5f, surface);
 
-        if (wallJumpsLeft < 1)
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
-            wallJumpsRight = 0;
-            wallJumpsLeft += 1;
             return rh2d.collider != null;
         }
 
         return false;
     }
+
+    private void wallmove()
+    {
+        rb2d.velocity = Vector2.down * wallSlideSpd;
+        if (onWallLeft())
+        {
+            a.onWall();
+            a.direction("right");
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+            {
+                walljump("left");
+            }
+        }
+
+        if (onWallRight())
+        {
+            a.onWall();
+            a.direction("left");
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+            {
+                walljump("right");
+            }
+
+        }
+    }   
+
+    private void walljump(string direction)
+    {
+
+        
+        if (direction.Equals("right"))
+        {
+            rb2d.velocity = Vector2.up * wallJumpY;
+            rb2d.velocity = Vector2.left * wallJumpX;
+            a.falling(); ;
+        }
+
+        if (direction.Equals("left"))
+        {
+            rb2d.velocity = Vector2.up * wallJumpY;
+            rb2d.velocity = Vector2.left * (-wallJumpX);
+            a.falling();
+        }
+        
+    }
+
 }
-
-
-
-
-

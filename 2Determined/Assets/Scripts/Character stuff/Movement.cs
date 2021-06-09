@@ -144,7 +144,7 @@ public class Movement : MonoBehaviour
     private bool onWallRight()
     {
         WallCheckHitR = Physics2D.Raycast(transform.position, new Vector2(wallDistance, 0f), wallDistance, surface);
-        Debug.DrawRay(transform.Position, new Vector(wallDistance, 0, Color.Blue))
+        Debug.DrawRay(transform.Position, new Vector(wallDistance, 0, Color.Red))
 
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {

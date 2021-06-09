@@ -55,6 +55,7 @@ public class Movement : MonoBehaviour
 
     void FixedUpdate()
     {
+        wallMove();
         horizontal();
     }
 
@@ -170,6 +171,31 @@ public class Movement : MonoBehaviour
     private void wallmove()
     {
        if(onWallRight)
+       {
+            if(wallCheckHitR && isGrounded()!)
+            {
+                rb2d.velocity = Vector2.down * wallSlideSpd;
+                a.direction("left");
+                a.onwall();
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+                {
+                    wallJump("left");
+                }
+            }  
+       }
+       
+       if(onWallLeft)
+       {
+            if(wallCheckHitL && isGrounded()!)
+            {
+                rb2d.velocity = Vector2.down * wallSlideSpd;
+                a.direction("right");
+                a.onwall();
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+                {
+                    wallJump("right");
+                }
+            }
     }   
 
     private void walljump(string direction)

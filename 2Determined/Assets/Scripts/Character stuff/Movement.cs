@@ -11,15 +11,23 @@ public class Movement : MonoBehaviour
     [SerializeField] private LayerMask surface; //checks for anything in the ground layer
 
     //Public variables
-    public float jumpVeloctiy; 
+    [Header ("horizontal movement")]
     public float moveSpd; //max move speed
 
+    [Header ("arial movement")]
+    public float jumpVeloctiy; 
     public float airMobility;
 
+    [Header ("wall movement")]
     public float wallSlideSpd;
+
+    public float wallDistance;
 
     public float wallJumpX;
     public float wallJumpY;
+
+    RaycastHit2D WallCheckHitR;
+    RaycastHit2D WallCheckHitL;
 
     //creates reference varible for compnenets
     private Rigidbody2D rb2d;
@@ -37,17 +45,16 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (onWallLeft() || onWallRight()) //checks if player is on wall
-        {
-            
-            wallmove();
-        }
 
-        else if (isGrounded()) // checks if player is grounded
+        if (isGrounded()) // checks if player is grounded
         {
             jumping();
         }        
+   
+    }
 
+    void FixedUpdate()
+    {
         horizontal();
     }
 
@@ -135,51 +142,34 @@ public class Movement : MonoBehaviour
 
     private bool onWallRight()
     {
-        RaycastHit2D rh2d = Physics2D.BoxCast(bc2d.bounds.center, bc2d.bounds.size, 0f, Vector2.right, .5f, surface);
+        WallCheckHitR = Physics2D.Raycast(transform.position, new Vector2(wallDistance, 0f), wallDistance, surface);
 
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            return rh2d.collider != null;
+            return true;
         }
 
         return false;
+
     }
 
     private bool onWallLeft()
     {
-        RaycastHit2D rh2d = Physics2D.BoxCast(bc2d.bounds.center, bc2d.bounds.size, 0f, Vector2.left, .5f, surface);
+        WallCheckHitL = Physics2D.Raycast(transform.position, new Vector2(wallDistance, 0f), wallDistance, surface);
 
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            return rh2d.collider != null;
+            return true;
         }
 
         return false;
+
     }
+
 
     private void wallmove()
     {
-        rb2d.velocity = Vector2.down * wallSlideSpd;
-        if (onWallLeft())
-        {
-            a.onWall();
-            a.direction("right");
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
-            {
-                walljump("left");
-            }
-        }
-
-        if (onWallRight())
-        {
-            a.onWall();
-            a.direction("left");
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
-            {
-                walljump("right");
-            }
-
-        }
+       if(onWallRight)
     }   
 
     private void walljump(string direction)
@@ -190,7 +180,7 @@ public class Movement : MonoBehaviour
         {
             rb2d.velocity = Vector2.up * wallJumpY;
             rb2d.velocity = Vector2.left * wallJumpX;
-            a.falling(); ;
+            a.falling();
         }
 
         if (direction.Equals("left"))
